@@ -1,0 +1,13 @@
+{
+  "name": "webpack-layer-reproduction",
+  "private": true,
+  "devDependencies": {
+    "webpack": "^5.96.1",
+    "@rspack/cli": "^1.0.14",
+    "@rspack/core": "^1.0.14"
+  },
+  "scripts": {
+    "build:webpack": "./node_modules/.bin/webpack -c webpack.config.js",
+    "build:rspack": "rspack build"
+  }
+}
